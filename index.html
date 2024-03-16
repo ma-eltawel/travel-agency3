@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel agancy</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="overlay"></div>
+        <div class="top">
+            <div class="container">
+                <a href="tel:+201113911655" class="helpline">
+                    <div class="icon">
+                        <i class="fas fa-phone-volume"></i>
+                    </div>
+                    <div class="content">
+                        <p class="title">For Further Inquires :</p>
+                        <p class="number">+20 (111) 3911 655</p>
+                    </div>
+                </a>
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="Tourly logo">
+                </a>
+                <div class="buttons">
+                    <button class="search-but" aria-label="Search">
+                        <i class="fab fa-searchengin"></i>
+                    </button>
+                    <button class="nav-open" aria-label="Open Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <ul class="social">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+                <nav>
+                    <div class="nav-top">
+                        <a href="#" class="logo">
+                            <img src="images/logo-blue.svg" alt="Tourly logo">
+                        </a>
+                        <button class="nav-close" aria-label="Close Menu">
+                            <i class="fas fa-xmark"></i>
+                        </button>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About us</a>
+                        </li>
+                        <li>
+                            <a href="#destination">Destination</a>
+                        </li>
+                        <li>
+                            <a href="#package">Packages</a>
+                        </li>
+                        <li>
+                            <a href="#gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="but but-prim">Book Now</button>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <main>
+        <!-- start home -->
+        <section class="home">
+            <div class="container">
+                <h1>Journey to Explore World</h1>
+                <p>Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos 
+                    voluptatibus habitant? Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.</p>
+                <div class="buttons">
+                    <button class="but but-prim">Learn more</button>
+                    <button class="but but-second">Book now</button>
+                </div>
+            </div>
+        </section>
+        <!-- end home -->
+        <!-- start tour -->
+        <section class="tour-search">
+            <div class="container">
+                <form action="">
+                    <div class="input-wrapper">
+                        <label for="destination-input">Search Destination*</label>
+                        <input type="text" id="destination-input" required placeholder="Enter Destination">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="people">Pax Number*</label>
+                        <input type="number" id="people" required placeholder="No. of People">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="checkin">Checkin Date*</label>
+                        <input type="date" id="checkin" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="checkout">Checkout Date*</label>
+                        <input type="date" id="checkout" required>
+                    </div>
+                    <button type="submit" class="but but-second">Inquire now</button>
+                </form>
+            </div>
+        </section>
+        <!-- end tour -->
+        <!-- start destination -->
+        <section id="destination">
+            <div class="container">
+                <p class="section-subtit">Uncover place</p>
+                <h2 class="section-tit">Popular destination</h2>
+                <p class="section-text">Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. 
+                    Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.</p>
+                <ul>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="images/dest-01.jpg" alt="San miguel, italy" loading="lazy">
+                            </figure>
+                            <div class="content">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="subtit">
+                                    <a href="#">Italy</a>
+                                </p>
+                                <h3>
+                                    <a href="#">San miguel</a>
+                                </h3>
+                                <p class="card-text">Fusce hic augue velit wisi ips quibusdam pariatur, iusto.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="images/dest-02.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                            </figure>
+                            <div class="content">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="subtit">
+                                    <a href="#">Dubai</a>
+                                </p>
+                                <h3>
+                                    <a href="#">Burj khalifa</a>
+                                </h3>
+                                <p class="card-text">Fusce hic augue velit wisi ips quibusdam pariatur, iusto.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="images/dest-03.jpg" alt="Kyoto temple, japan" loading="lazy">
+                            </figure>
+                            <div class="content">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="subtit">
+                                    <a href="#">Japan</a>
+                                </p>
+                                <h3>
+                                    <a href="#">Kyoto temple</a>
+                                </h3>
+                                <p class="card-text">Fusce hic augue velit wisi ips quibusdam pariatur, iusto.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="but but-prim">More destintion</button>
+            </div>
+        </section>
+        <!-- end destination -->
+        <!-- start package -->
+        <section id="package">
+            <div class="container">
+                <p class="section-subtit">Popular Packeges</p>
+                <h2 class="section-tit">Checkout Our Packeges</h2>
+                <p class="section-text">Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. 
+                    Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.</p>
+                <ul class="package-list">
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="images/pack-01.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                            </figure>
+                            <div class="content">
+                                <h3>Experience The Great Holiday On Beach</h3>
+                                <p class="card-text">Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est 
+                                    aliquet porttitor! Eaque, cras, aspernatur.</p>
+                                <ul>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-clock"></i>
+                                            <p>7D/6N</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-users"></i>
+                                            <p>pax: 10</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p>Palestine</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(25 reviews)</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">$750<span>/ per person</span></p>
+                                <button class="but but-second">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="images/pack-02.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                            </figure>
+                            <div class="content">
+                                <h3>Summer Holiday To The Oxolotan River</h3>
+                                <p class="card-text">Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est 
+                                    aliquet porttitor! Eaque, cras, aspernatur.</p>
+                                <ul>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-clock"></i>
+                                            <p>7D/6N</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-users"></i>
+                                            <p>pax: 10</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p>Palestine</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(20 reviews)</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">$520<span>/ per person</span></p>
+                                <button class="but but-second">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="images/pack-03.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                            </figure>
+                            <div class="content">
+                                <h3>Santorini Island's Weekend Vacation</h3>
+                                <p class="card-text">Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est 
+                                    aliquet porttitor! Eaque, cras, aspernatur.</p>
+                                <ul>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-clock"></i>
+                                            <p>7D/6N</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-users"></i>
+                                            <p>pax: 10</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p>Palestine</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(40 reviews)</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">$660<span>/ per person</span></p>
+                                <button class="but but-second">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="but but-prim">View All Packages</button>
+            </div>
+        </section>
+        <!-- end package -->
+        <!-- start gallery -->
+        <section id="gallery">
+            <div class="container">
+                <p class="section-subtit">Photo Gallery</p>
+                <h2 class="section-tit">Photo's From Travellers</h2>
+                <p class="section-text">Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. 
+                    Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.</p>
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="images/g-01.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/g-02.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/g-03.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/g-04.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/g-05.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- end gallery -->
+        <!-- start contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="content">
+                    <p class="section-subtit">Call To Action</p>
+                    <h2 class="section-tit">Ready For Unforgatable Travel. Remember Us!</h2>
+                    <p class="section-text">Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. 
+                        Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.</p>
+                </div>
+                <button class="but but-second">Contact Us !</button>
+            </div>
+        </section>
+        <!-- end contact -->
+    </main>
+    <!-- start footer -->
+    <footer>
+        <div class="top">
+            <div class="container">
+                <div class="brand">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="Tourly logo">
+                    </a>
+                    <p>Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna 
+                        conubia at perferendis, pretium, aenean aut ultrices.</p>
+                </div>
+                <div class="contact">
+                    <h4>Contact Us</h4>
+                    <p>Feel free to contact and reach us !!</p>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+201113911655">+20 (111) 3911 655</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@tourly.com">info@tourly.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-location-dot"></i>
+                            <address>3146 Koontz, California</address>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-container">
+                    <p>Subscribe our newsletter for more update & news !!</p>
+                    <form action="">
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <button type="submit" class="but but-second">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <p>&copy; 2024 <a href="#">Ma Eltawel</a>. All rights reserved</p>
+                <ul>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Term & Condition</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <a href="#top" class="go-top">
+        <i class="fas fa-angles-up"></i>
+    </a>
+    <!-- end footer -->
+
+    <!-- javascript files -->
+    <script src="main.js"></script>
+</body>
+</html>
